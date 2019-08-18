@@ -10,9 +10,9 @@
 
 NCA offer Insights on:
 
--Important entities: influencers in social network
--Pathfinding: most efficient transport path
--Clustering: finding communities
+- Important entities: influencers in social network
+- Pathfinding: most efficient transport path
+- Clustering: finding communities
 
 ---
 ### Levels of Analysis
