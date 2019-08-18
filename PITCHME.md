@@ -1,8 +1,10 @@
 ﻿
-## Complex network analysis (CNA)
+# Complex network analysis (CNA)
+---
 
 **CNA** is the study of complex networks—their structure, properties, and dynamics. You can think of CNA as a generalization of social network analysis (SNA) to include non-social networks.
-                 
+ 
+--- 
 ## Basics of networks
 NCA offer Insights on:
 
@@ -10,6 +12,7 @@ NCA offer Insights on:
 ● Pathfinding: most efficient transport path
 ● Clustering: finding communities
 
+---
 ### Levels of Analysis
 Social network analysis addresses social networks at three levels: microscopic, mesoscopic, and macroscopic.
                 
@@ -18,7 +21,8 @@ Social network analysis addresses social networks at three levels: microscopic, 
 - **Mesoscopic level** view focuses on exponential random graph models (ERGMs), scale-free and small-world networks, and network evolution. Finally, at the 
 
 - **Macroscopic level**, the more general complex network analysis fully absorbs SNA, abstracting from the social origins of social networks and concentrating on the properties of very large real-world graphs, such as degree distribution, assortativity, and hierarchical structure
-                
+   
+---   
 ##  CNA packages
 
 **NetworkX**—a powerful Python library for network analysis and visualization. You know how to construct a simple graph incrementally, add node attributes, do some simple visualization, and save the networks to and restore from files. Of these tasks, it is visualization that NetworkX does not handle well. NetworkX’s performance is acceptable up to about 100,000 nodes.               
@@ -47,6 +51,8 @@ In [10]: nx.draw(G)
  In [11]: import matplotlib.pyplot as plt 
  In [12]: plt.show()
 ```
+
+---
 ## Creating a Network
 NetworkX provides several mechanisms for adding nodes and edges to an existing graph: one by one, from a list or another graph. Likewise, you can remove nodes or edges one by one or by using a list.
                
@@ -89,7 +95,7 @@ Out[9]: [(1, {'label': 'blue'}), (2, {}), (3, {})
 ```
   
                 
-
+---
 ## Network Visualization 
 The process of network visualization consists of two phases: layout and rendering. At the layout phase, the software selects geometric positions of each node according to a layout algorithm.
                 
