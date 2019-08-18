@@ -1,7 +1,7 @@
 ﻿
 ### Complex network analysis (CNA)
 ---
-@snap[mid-point span-40 text-center]
+@snap[mid-point span-40 text-left]
 
 **CNA** is the study of complex networks—their structure, properties, and dynamics. You can think of CNA as a generalization of social network analysis (SNA) to include non-social networks.
 
